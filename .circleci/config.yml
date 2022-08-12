@@ -41,6 +41,7 @@ jobs:
           keys:
             - "npm-packages"
       - run: npm i
+      - run: npm audit fix
       - run: npm audit
 
 
